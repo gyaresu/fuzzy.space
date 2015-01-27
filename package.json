@@ -1,0 +1,34 @@
+{
+  "name": "fuzzy.space",
+  "version": "1.0.0",
+  "description": "fuzzy.space is a distributed realtime decision making app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gyaresu/fuzzy.space.git"
+  },
+  "keywords": [
+    "loomio",
+    "collaborative",
+    "greenpeace",
+    "civilsociety"
+  ],
+  "author": "Gareth",
+  "license": [
+    {
+      "type": "ISC",
+      "url": "http://github.com/gyaresu/fuzzy.space/raw/master/LICENCE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/gyaresu/fuzzy.space/issues"
+  },
+  "homepage": "https://github.com/gyaresu/fuzzy.space",
+  "dependencies": {
+    "hapi": "^8.1.0",
+    "lab": "^5.2.1"
+  }
+}
