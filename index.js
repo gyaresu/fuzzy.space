@@ -10,7 +10,7 @@ server.start(function () {
 
 var getConfig = {
   handler: function (request, reply) {
-             reply("hello");
+             reply("fuzzy.space: " + server.info.uri);
            },
 }
 
