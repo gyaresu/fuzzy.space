@@ -10,20 +10,20 @@ server.start(function () {
 
 var getConfig = {
   handler: function (request, reply) {
-             reply("fuzzy.space is a distributed realtime decision making app");
+             reply('fuzzy.space is a distributed realtime decision making app');
            },
-}
+};
 
 var testConfig = {
   handler: function (request, reply) {
-             reply("test");
+             reply('test');
            },
-}
+};
 
 var routes = [
   { path: '/',      method: 'GET', config: getConfig},
   { path: '/test',  method: 'GET', config: testConfig}
-]
+];
 
 server.route(routes);
 server.start();
