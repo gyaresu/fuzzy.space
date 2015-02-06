@@ -10,8 +10,7 @@ server.start(function () {
 
 var getConfig = {
   handler: function (request, reply) {
-             var test = {thing: 'stuff', blah: 'wooble'};
-             reply(test);
+             reply('<html><body><h3>fuzzy space</h3> \n <a href="https://twitter.com/gyaresu">@gyaresu</a></body></html>');
            },
 };
 
@@ -23,7 +22,13 @@ var testConfig = {
 
 var routes = [
   { path: '/',      method: 'GET', config: getConfig},
-  { path: '/test',  method: 'GET', config: testConfig}
+  { path: '/test',  method: 'GET', config: testConfig},
+  { path: '/keybase.txt',
+    method: 'GET',
+    handler: function (req, res) {
+      res.file('./keybase.txt');
+      }
+  }
 ];
 
 server.route(routes);
