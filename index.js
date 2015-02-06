@@ -10,7 +10,8 @@ server.start(function () {
 
 var getConfig = {
   handler: function (request, reply) {
-             reply('fuzzy.space is a distributed realtime decision making app');
+             var test = {thing: 'stuff', blah: 'wooble'};
+             reply(test);
            },
 };
 
