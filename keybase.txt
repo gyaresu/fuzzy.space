@@ -8,25 +8,22 @@ I hereby claim:
   * I am gyaresu (https://keybase.io/gyaresu) on keybase.
   * I have a public key with fingerprint 52FA 187A 4E78 36B6 2207  B672 75F7 0A5D 623A 7EE6
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
     "body": {
-        "client": {
-            "name": "keybase.io node.js client",
-            "version": "0.7.3"
-        },
         "key": {
             "fingerprint": "52fa187a4e7836b62207b67275f70a5d623a7ee6",
             "host": "keybase.io",
-            "key_id": "75F70A5D623A7EE6",
+            "key_id": "75f70a5d623a7ee6",
+            "kid": "010135442e315ebab4195dffcf374c4336d7716a44eb872e8d1640fd300899e40ab10a",
             "uid": "1ee350f325a55038bcf8bfb10f1f5c00",
             "username": "gyaresu"
         },
-        "merkle_root": {
-            "ctime": 1423260286,
-            "hash": "1f909a5692eec7225291db7355ddf3c017c5efdfea6ac537065a469fda6f9d549933a66892379139b9a01894dcdb2ed5cd8abde90f5366ca148366c2aab4fffb",
-            "seqno": 149653
+        "revoke": {
+            "sig_ids": [
+                "ba4a29b8e947662125f430c2d90b90c7f43a582c493227937a72b42c578dc3410f"
+            ]
         },
         "service": {
             "hostname": "fuzzy.space",
@@ -35,43 +32,43 @@ To claim this, I am signing this object:
         "type": "web_service_binding",
         "version": 1
     },
-    "ctime": 1423260407,
+    "ctime": 1432054651,
     "expire_in": 157680000,
-    "prev": "c383ece386c107b8b7b985af0a69b1d513323f4c15ab06e1072c0e32c2e7eee9",
-    "seqno": 8,
+    "prev": "89dde6d6df9fde9499b97fba46e70cb7c30d3aa815d4600ed9b00d6bf35c65da",
+    "seqno": 82,
     "tag": "signature"
 }
 
-which yields the PGP signature:
+which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
 
-owFVkntMFFcUxneB0ooQ1EYM1tXtRpqKsM7M3TuPFdAlgFSNVdGCCKV3Zu4sW2Bn
-2QfKUkAhoAjopg/AYCRpgKaFtMZQYkHE0oqxtkGJfSAVUuShVlOJIrEP2hlC0zr/
-3Jl7fvOd77vn+kL8NX5az2xQJm8umdRevctr9nxvni0y8LJYaDAXGYRcG7a71Tc7
-ysMGsyEHF/LIhY02WW+XRWx826VfYKIMBdjpssl2hSKMjBEYiqNUXP1Zstmt2Olw
-2lQtA6QkRLIMMmGGBTRPUxTB8DRDMVBiCARFmgKIwZhWJLNll/uZroZ5zSybqOwy
-MIkhLDBB4S1MYqLKe+YLJMYAEhKgIIKQACwvSCwv8SQhkRIUCEIFXdi5EMlaiJzY
-5VHt5mFnTi7OcsryfGbBbVMJ0kQBiiYollYMIVe22kHiCA5BmqMwFhiKghRHijwD
-IBRFCQgEyQgQS6KEEY0ECBiChshEc5KIaIkToYnjAEA0zXIUYDgScDyHCJLlTKIg
-8hQWoSCyiBcxR0gQ0LSASBOrrhRCvEmSJF5J4ML5dlk1x9EQFKvfzgKbgFXf6qkt
-hJM8Xm+h0eVASiXK4HDKblmQc5VCttvtMKuZ3YUOFTyA+SwXbpvXyOJtdlEZ2f9n
-Siros+dhIpgoAz7osDlxlk0lIEOzhPKofXCBoikAFmABA5YWSGXELM/wHAuRRCCa
-40kRkgBQQDIJJEQ8QWOFoQQCA0qgsDJ/zP2XklV8Iqsi6bJZ7cjtcWJDcZXfqgCN
-1k8T+Jyfemk1QYuW/HuTg1tD/3Yc9CXc+fjd5oudy9FoX0t/5OoneN2t59PX9Vp6
-7DE5g9bH1WXenGt7fn90sZPbe/+P/Vrt0dLXhyenk4LPO2q/+bzhxsv7io3drE73
-fmNMVcLUpm7dSHDrmgtN17dEfj0a+5J/jr8uvoLyroxN3aWHr1ya7ry1gbyWuOmn
-Gbg6hW90+B0JqSG6ls5t1Zmsg/rmNVuDHl41p1WJB4Z3fmc52fmk+mZ+VEV19HD6
-RJI1Rfgqwt7z0PjZ2ejAzDBfaO/T33ZVbQw+HnCCqQyLP7dTjk3tmlhypSbz5xhQ
-d/nF+G1lt9NTvYGH3iktt/Qc+tKLwImM+mPVaT3TbEOTp2PZD0c/rJobb4h0ZI8/
-MPk+1fe/GpeW/Mugb8KzqnRj46ll5ea4vsmVxrcSoxM3Fw1Zw8fMH/x1+M2m4yW7
-pR1cvnFkxXrYXrY4uGjEFVZ3b+7M42/vVLZUBt/VJ6xPscaurQEDh3en6bJfaIk8
-5/2xv/I9ndyx/0LFF9rLHeHN4XJyb7QmpJHdljQ6U9uaBOb2Td0fzGu+seL6wMnk
-s8IGb0DGGfLRkYLT/QmpFIyY2rJ4tj7jo5rQlAfVTUOf7BiP247eiJhpP/1nW1Tt
-7XsZdZuP+VV1r33NfEVb32EMmttut7RrlpdpzkdQY6f0bXu7frWMlfM3hxYtLSia
-6PNpuKfJA86aS3zJPw==
-=K+W3
+yMN/AnicbZJ7UFRVHMcXeQxtg6HRBjg5dh2tdAfOfd+7gDQ0004ERFiWrUT3ce5y
+RXaXfcHC8JIMcMApwBAQpcCQwoHRhoxUWp7jA3QGUaKCAZMxVxQaZgg17C5j/3X+
+OfP7/b6/z+9xTn+Qr0rt41hSp/K6glmfy+4Gh+p9Q0ZeHsKbRReiy0My4OolySYj
+tFqsssmO6BASkziUoTkC0gxO8RSGAZqnaIwmJRpwpEhhOEdDSCFaJN1s82YoGJ6z
+wQjZrPgUI00WFe//6DNWAwAFKE4SBAZxlIQ8xxMoS4qSJEg4TQgEjlMiTaMURxCQ
+Z2gMMiJKEUAScQAYloUE4HgUcArOsYpDIcRJIOEYyZEkwBlekBheUiQSKpECAF6h
+DVpNXCZU1EYXZ4U2B5KvRazQac6A3gXYZKPSsw3RGRCeIziM5RnIEjRFYShGSgQO
+BExkAc8CgVYsjmQwgWBxDKNZnOZojCcwgaQZUcAJpSqSqrCVgk5ZWIV7l/S0uOTI
+zXVF2CycEtEiFqvZbhbM+5RAut1u0Xl7srssXmE25NOeItJ42SQqD6QkOKHVJptN
+iA5VlIJd9jJRAscASVAkqkVgjkW2wjTZqyBpigHK8ZaBTgXJsKIIKZESJVYSlelY
+lmdpSRmXgjQQeFrAgYhzHIOSIkEBAEWWB0CkeAknBYoUvfu2wSyTGdExmNInZ1SY
+yt5MnN1hhUh+r3uPn8pHrQrwX+P9Yyr1M8H//bzMk8GqhgtbGoPzn0y7DXOb6w0H
+rtR/+zaV+F1I89a4Ps1zR/5J/CyheRc9zPbkDLoeTGT3G/jYtbdR1/wLquGU6E+M
+nqBTx2JG0wpf1Q1vqAtfQW5Y+m4m9kQerFLVXlF/76ju3xq0e3Rm8pXZx6V3X0Mq
+63/RbFpYnDsL3Mn91+Vbb4XPn+jfWRmYtfF60kSAXu2Z21t+2rPe/42hy1E/tLQu
+EgeeHI7WRDqlH+Mik5s0v/2+vLDWfo5dWm6pwIs+evHkjp9KHg28u20wYmYhvaEj
+cz+9Enp7JNWv0tMVcGdg3M93avtkxdj+tqbPcz5G/Ku3NdZMDU+urwvaey+o6NBR
+NKdwpJ2oPfX3S6ElrTnJujPI6Wi/6Qqf6sCY5Z+dM+bQP5691pnw1cz5i+FxNytj
+F74cueFpGfLVfRFbfDWsqMxTF381S5/9sLCsO+H44e6a3vnnA7OyH4WFvO7uKC7v
+DClzJ106NPpr7zvRZHvR0J2B7hVLpMatHrfp19zXt+0p+LP807HHQfoNXetyfTpb
+q2bb8tY17Ys3Bv81ONHY9mHSmftLje/VGhLnz5IfbEx4c/NdR2RxAbn74eL5vpSq
+Dlp7YdMxfVnYcOKW0hRom6qJjfmG2HFk+8sl4dqeB55LjUknKsZ6b413BbbG6HdG
+nZu+OD5jaT5edS1KEzdHlLbP7Wr++h4aL3YuHP0XxXfJoQ==
+=6ULs
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
@@ -80,3 +77,4 @@ appending to this document.
 View my publicly-auditable identity here: https://keybase.io/gyaresu
 
 ==================================================================
+
